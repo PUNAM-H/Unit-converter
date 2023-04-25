@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	padding: 0px;
+    background-color:lightpink
+}
+.converter-body{
+    background-color: aqua;
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 60px 10px 60px 10px;
+    box-shadow: 10px 10px 20px rgb(12, 11, 11); 
+    
+}
+.converter-title{
+	text-align: center;
+	margin: 13px 0px;
+	font-size: 40px;
+}
+input{
+	height: 25px;
+	text-align: center;
+	border: 1px solid black;
+}
+#input{
+	margin-left: 25px;
+}
+#inputType,#resultType{
+	width: 164.66px;
+	margin-left: 25px;
+	color:rgb(252, 42, 74)
+	border=1px solid black;
+}
+#resultType{
+	margin-left: 12.5px;
+}
